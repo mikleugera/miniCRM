@@ -1,0 +1,6 @@
+Roles list
+1/ Admin
+2/ Editor
+3/ Author
+4/ Contributor
+5/ Subscriber

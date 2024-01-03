@@ -1,0 +1,85 @@
+.container .sidebar ul.nav h4 {
+    color: #c1c1c1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h2.accordion-header {
+    width: 100%;
+}
+
+.accordion-header button.accordion-header span {
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.accordion-header button.accordion-button span i {
+    display: inline-block;
+    margin-right: 3px;
+    color: #198754;    
+}
+
+/* Style tags on edit page */
+
+div.tags-container div.tag, div.accordion-body p a, 
+.card-body p a{
+    display: inline-block;
+    background: #020202;
+    color: #f1f1f1;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin: 5px 5px;
+}
+
+div.tags-container div.tag button {
+    border: none;
+    background: inherit;
+    color: #ffffff;
+    padding-left: 11px;
+    border-left: 1px solid #c1c1c1;
+}
+
+div.tags-container div.tag span {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+h2.accordion-header button {
+    border-radius: 3px;
+    color: #ffffff !important;
+}
+
+h2.accordion-header button span {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+div.accordion-body p a, .card-body p a{
+    text-decoration: none;
+}
+
+.card-body p a:hover,
+div.accordion-body p a:hover {
+    background: #198754;
+}
+
+div.filter-priority a{
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div.filter-priority a:hover{
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: underline;  
+} 
+
+/* Кастомизация календаря */
+
+.fc-event:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+   
